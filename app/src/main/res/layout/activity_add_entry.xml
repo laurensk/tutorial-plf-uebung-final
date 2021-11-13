@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".AddEntryActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewCustomText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <EditText
+        android:id="@+id/editTextNewEntry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Wie soll das neue Element heißen?"
+        />
+
+    <Button
+        android:id="@+id/buttonSaveEntry"
+        android:text="Speichern"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>
